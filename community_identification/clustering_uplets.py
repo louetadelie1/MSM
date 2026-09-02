@@ -63,7 +63,7 @@ def network_graph_microstates(filtered_merged_output, resolution=None, seed=42):
     G.remove_edges_from(list(nx.selfloop_edges(G)))
 
     # Louvain community detection
-    communities=nx.community.louvain_communities(G, seed=42,weight='weight',resolution=resolution) 
+    communities=nx.community.louvain_communities(G, seed=42,weight=weight,resolution=resolution) 
     parts = {node: i for i, community in enumerate(communities) for node in community}
     values = [parts.get(node) for node in G.nodes()]
 
