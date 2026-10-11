@@ -4,9 +4,7 @@ This repository contains code used to build and analyze **Markov State Models (M
 
 The methodology is described in:
 
-Louet et al.  
-**Binding Paths: A Markov state model framework for small-molecule interactions with IDPs**  
-https://www.biorxiv.org/content/10.1101/2025.11.19.688850v1
+Adelie Louet, Gerhard Hummer, Michele Vendruscolo; Binding without Docking: Small-Molecule Binding Paths on Disordered Proteins. Journal American Chemical Society 2026; https://doi.org/10.1021/jacs.6c05891
 
 ---
 
