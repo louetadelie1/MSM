@@ -4,13 +4,18 @@ Code for **building Markov State Models (MSMs) of small molecules moving over in
 
 Disordered proteins have no fixed binding pocket, so docking does not apply. A ligand slides and hops across the protein surface instead. This code takes an MD simulation of a protein + ligand and turns it into a **map of binding states and the paths between them**. It shows where the ligand prefers to sit, how it moves between sites, and how tightly it binds overall.
 
+  <p align="center">
+    <img src="images/simu_time.png" width="90%">
+  </p>
+
+
 > **Paper:** Adélie Louet, Gerhard Hummer, Michele Vendruscolo.
 > *Binding without Docking: Small-Molecule Binding Paths on Disordered Proteins.*
 > J. Am. Chem. Soc. 2026. https://doi.org/10.1021/jacs.6c05891
 
 ---
 
-## The idea in one picture
+## Pipeline
 
 ```
  MD trajectory                Binding states                 Network of states
